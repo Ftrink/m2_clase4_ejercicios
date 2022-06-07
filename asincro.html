@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+
+    function contarDeA_n(contar_de_a, contar_hasta) {
+        let x = contar_de_a;
+
+        for (let i = 0; i <= contar_hasta; i += x) {
+
+            console.log(i)
+
+        }
+
+    }
+
+
+
+
+        /*tome dos Strings como Argumento y reimplemente el FizzBuzz original.
+        Elegí una palabra para cada String (palabra1 y palabra2) que reemplace a Fizz y a Buzz.*/
+
+        //fizzbuzz
+    function fizzbuzz2(inicio, termino, axe_num, skull_num) {
+        let pa = 'axe'  // argumento .. ?
+        let pa1 = 'skull'
+        for (let i = inicio; i <= termino; i++) {
+
+            if ((i % axe_num == 0) && (i % skull_num == 0)) {
+                console.log(i + ' , ' + pa1 + pa)
+            }
+            else if (i % 5 == 0) {
+                console.log(i + ' , ' + pa)
+            }
+            else if (i % 3 == 0) {
+                console.log(i + ' , ' + pa1)
+            }
+            else {
+                console.log(i)
+            }
+        }
+    }
+
+
+
+
+        
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
